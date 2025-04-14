@@ -4,12 +4,15 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8">
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TFW8SZBZ');</script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TFW8SZBZ');</script>
   <!-- End Google Tag Manager -->
   <title>FitnessZone | Gimnasio en Cali</title>
   <meta name="description"
@@ -73,7 +76,7 @@
       "priceRange": "$$"
     }
     </script>
-    
+
 
 
 
@@ -81,7 +84,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -94,15 +97,15 @@
   </script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=494994223683472&ev=PageView&noscript=1" /></noscript>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TTZ2VW062V"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTZ2VW062V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-TTZ2VW062V');
-</script>
+    gtag('config', 'G-TTZ2VW062V');
+  </script>
   <!-- Meta Pixel Code, Google Tag y demás scripts se mantienen igual -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"></script>
   <!-- Owl Carousel CSS -->
@@ -129,9 +132,9 @@
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFW8SZBZ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFW8SZBZ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div id="flyer-overlay">
     <div class="flyer-content" onclick="redirectToPromo()">
@@ -198,7 +201,8 @@
       <!-- SIDE PANEL: Se muestra el logo y debajo el carrusel de reseñas -->
       <div class="side-panel2">
         <div class="logo-container2">
-          <img src="./fitness_zone.png" alt="Logo del Gimnasio Go Fit GYM" class="logo" style="max-width: 35% !important;">
+          <img src="./fitness_zone.png" alt="Logo del Gimnasio Go Fit GYM" class="logo"
+            style="max-width: 35% !important;">
         </div>
         <div class="resenas">
           <h3 style="color: black;">Ultimas Reseñas en Google Maps</h3>
@@ -275,18 +279,18 @@
         overlay.style.display = 'none';
       }
     }
-  
+
     // Función para redirigir a la URL del sorteo cuando se clickea el contenedor
     function redirectToPromo() {
       window.location.href = "https://www.dondeseria.com/sorteo/module_rt45.html";
     }
-  
+
     // Cierra el flyer automáticamente después de 3 segundos (3000 milisegundos)
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       setTimeout(closeFlyer, 3000);
     });
   </script>
-  
+
   <script type="importmap">
     {
       "imports": {
@@ -419,16 +423,16 @@
           thumbnail: `${baseUrl}6.jpg`,
           name: 'Fitness Zone',
           markers: [
-    {
-      id: 'marker-image-nodo2',
-      imageLayer: '../mancuerna.png',  // Ruta a tu imagen (puede ser relativa)
-      position: { yaw: 1.5, pitch: 0 },  // Ajusta los valores según donde lo quieras posicionar
-      size: { width: 602, height: 522 },     // Tamaño del marker
-      // anchor y rotation se pueden agregar si es necesario, por ejemplo:
-      // anchor: { x: 0.5, y: 0.5 },
-      // rotation: 45
-    }
-  ],
+            {
+              id: 'marker-image-nodo2',
+              imageLayer: '../mancuerna.png',  // Ruta a tu imagen (puede ser relativa)
+              position: { yaw: 1.5, pitch: 0 },  // Ajusta los valores según donde lo quieras posicionar
+              size: { width: 602, height: 522 },     // Tamaño del marker
+              // anchor y rotation se pueden agregar si es necesario, por ejemplo:
+              // anchor: { x: 0.5, y: 0.5 },
+              // rotation: 45
+            }
+          ],
           caption: 'Fitness Zone',
           links: [
             {
@@ -613,7 +617,10 @@
         [
           VisibleRangePlugin,
           {}
-        ]
+        ],
+        [AutorotatePlugin, {
+          autorotatePitch: '5deg',
+        }],
       ]
     });
 
